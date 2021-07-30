@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0688441266F5DA9009ECBA5 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0688440266F5DA9009ECBA5 /* Memo.swift */; };
+		D0688443266F5E70009ECBA5 /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0688442266F5E70009ECBA5 /* MemoListViewModel.swift */; };
+		D0688445266F5E7E009ECBA5 /* MemoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0688444266F5E7E009ECBA5 /* MemoDetailViewModel.swift */; };
+		D0688447266F5F0E009ECBA5 /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0688446266F5F0E009ECBA5 /* MemoListView.swift */; };
+		D0688449266F5F17009ECBA5 /* MemoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0688448266F5F17009ECBA5 /* MemoDetailView.swift */; };
+		D068844B266F606F009ECBA5 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068844A266F606F009ECBA5 /* CommonViewModel.swift */; };
+		D068847A26705C14009ECBA5 /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068847926705C14009ECBA5 /* Date+Ex.swift */; };
+		D068847C26706680009ECBA5 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068847B26706680009ECBA5 /* String+Ex.swift */; };
 		D0F7F6C4266EFD8E00B6874F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F7F6C3266EFD8E00B6874F /* AppDelegate.swift */; };
 		D0F7F6C6266EFD8E00B6874F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F7F6C5266EFD8E00B6874F /* SceneDelegate.swift */; };
-		D0F7F6C8266EFD8E00B6874F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F7F6C7266EFD8E00B6874F /* ContentView.swift */; };
 		D0F7F6CA266EFD8F00B6874F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F7F6C9266EFD8F00B6874F /* Assets.xcassets */; };
 		D0F7F6CD266EFD8F00B6874F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F7F6CC266EFD8F00B6874F /* Preview Assets.xcassets */; };
 		D0F7F6D0266EFD8F00B6874F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F7F6CE266EFD8F00B6874F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0688440266F5DA9009ECBA5 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		D0688442266F5E70009ECBA5 /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		D0688444266F5E7E009ECBA5 /* MemoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewModel.swift; sourceTree = "<group>"; };
+		D0688446266F5F0E009ECBA5 /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
+		D0688448266F5F17009ECBA5 /* MemoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailView.swift; sourceTree = "<group>"; };
+		D068844A266F606F009ECBA5 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
+		D068847926705C14009ECBA5 /* Date+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
+		D068847B26706680009ECBA5 /* String+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
 		D0F7F6C0266EFD8E00B6874F /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F7F6C3266EFD8E00B6874F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F7F6C5266EFD8E00B6874F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0F7F6C7266EFD8E00B6874F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0F7F6C9266EFD8F00B6874F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0F7F6CC266EFD8F00B6874F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0F7F6CF266EFD8F00B6874F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +51,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D008D951266F2D03005F4EAD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0688442266F5E70009ECBA5 /* MemoListViewModel.swift */,
+				D0688444266F5E7E009ECBA5 /* MemoDetailViewModel.swift */,
+				D068844A266F606F009ECBA5 /* CommonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D008D952266F2D09005F4EAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0688440266F5DA9009ECBA5 /* Memo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D068847826705C09009ECBA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D068847926705C14009ECBA5 /* Date+Ex.swift */,
+				D068847B26706680009ECBA5 /* String+Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D0F7F6B7266EFD8E00B6874F = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +97,11 @@
 		D0F7F6C2266EFD8E00B6874F /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
-				D0F7F6C3266EFD8E00B6874F /* AppDelegate.swift */,
-				D0F7F6C5266EFD8E00B6874F /* SceneDelegate.swift */,
-				D0F7F6C7266EFD8E00B6874F /* ContentView.swift */,
-				D0F7F6C9266EFD8F00B6874F /* Assets.xcassets */,
-				D0F7F6CE266EFD8F00B6874F /* LaunchScreen.storyboard */,
-				D0F7F6D1266EFD8F00B6874F /* Info.plist */,
+				D068847826705C09009ECBA5 /* Extensions */,
+				D008D952266F2D09005F4EAD /* Models */,
+				D008D951266F2D03005F4EAD /* ViewModels */,
+				D0F7F6D8266EFF6B00B6874F /* Views */,
+				D0F7F6D7266EFF6400B6874F /* SupportingFiles */,
 				D0F7F6CB266EFD8F00B6874F /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -73,6 +113,27 @@
 				D0F7F6CC266EFD8F00B6874F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0F7F6D7266EFF6400B6874F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D0F7F6C3266EFD8E00B6874F /* AppDelegate.swift */,
+				D0F7F6C5266EFD8E00B6874F /* SceneDelegate.swift */,
+				D0F7F6C9266EFD8F00B6874F /* Assets.xcassets */,
+				D0F7F6CE266EFD8F00B6874F /* LaunchScreen.storyboard */,
+				D0F7F6D1266EFD8F00B6874F /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D0F7F6D8266EFF6B00B6874F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0688446266F5F0E009ECBA5 /* MemoListView.swift */,
+				D0688448266F5F17009ECBA5 /* MemoDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +207,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F7F6C4266EFD8E00B6874F /* AppDelegate.swift in Sources */,
+				D068847C26706680009ECBA5 /* String+Ex.swift in Sources */,
+				D0688447266F5F0E009ECBA5 /* MemoListView.swift in Sources */,
+				D0688449266F5F17009ECBA5 /* MemoDetailView.swift in Sources */,
+				D068847A26705C14009ECBA5 /* Date+Ex.swift in Sources */,
+				D0688443266F5E70009ECBA5 /* MemoListViewModel.swift in Sources */,
 				D0F7F6C6266EFD8E00B6874F /* SceneDelegate.swift in Sources */,
-				D0F7F6C8266EFD8E00B6874F /* ContentView.swift in Sources */,
+				D068844B266F606F009ECBA5 /* CommonViewModel.swift in Sources */,
+				D0688441266F5DA9009ECBA5 /* Memo.swift in Sources */,
+				D0688445266F5E7E009ECBA5 /* MemoDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIMemo/Info.plist;
+				INFOPLIST_FILE = SwiftUIMemo/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIMemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUIMemo/Info.plist;
+				INFOPLIST_FILE = SwiftUIMemo/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
